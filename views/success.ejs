@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.98.0">
+  <title>Calculadora de Renda per Capita</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/2a9567cddb.js" crossorigin="anonymous"></script>
+
+  <link href="/css/styles.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+  <main class="form-signin-success w-100 m-auto">
+    <div class="card">
+        <h5 class="card-header"><%= retorno.name %></h5>
+        <div class="card-body">
+          <h5 class="card-title">Renda per Capita: R$ <%= retorno.renda %></h5>
+          <p class="card-text"><%= retorno.logradouro %>, <%= retorno.complemento %>, <%= retorno.bairro %>, <%= retorno.localidade %>, <%= retorno.uf %>, <%= retorno.cep %></p>
+          <a href="/" class="btn btn-warning">Retornar</a>
+        </div>
+      </div>
+  </main>
+
+</body>
+
+</html>
