@@ -26,11 +26,11 @@ npm install
 
 ## 🛠️ Construído com
 
-* [NodeJS](http://www.dropwizard.io/1.0.2/docs/)
-* [Express](https://maven.apache.org/) - Usado para gerar o servidor HTTP
-* [EJS](https://rometools.github.io/rome/) - Usado para gerar páginas HTML dinâmicas
-* [Bootstrap](https://rometools.github.io/rome/) - Usado para estilizar nossas páginas
-* [Axios](https://rometools.github.io/rome/) - Usado para realizar requisições HTTP do lado do servidor
+* [NodeJS](https://nodejs.org/en/)
+* [Express](https://expressjs.com/pt-br/) - Usado para gerar o servidor HTTP
+* [EJS](https://ejs.co/) - Usado para gerar páginas HTML dinâmicas
+* [Bootstrap](https://getbootstrap.com/) - Usado para estilizar nossas páginas
+* [Axios](https://axios-http.com/) - Usado para realizar requisições HTTP do lado do servidor
 
 
 ## ✒️ Autor
