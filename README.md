@@ -26,7 +26,7 @@ Uma vez instalado o NPM, rodar o programa com o comando start.
 ```
 npm start
 ```
-Para vizualizar a aplicação, visite no seu navegador o link "http://localhost:3000" (Lembre-se de alterar o 3000 pela porta configurada no arquivo .env, se necessário).
+Para vizualizar a aplicação, visite no seu navegador o link http://localhost:3000 (Lembre-se de alterar o 3000 pela porta configurada no arquivo .env, se necessário).
 
 ## 🛠️ Construído com
 
