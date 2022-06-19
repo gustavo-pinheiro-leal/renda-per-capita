@@ -39,7 +39,8 @@ const montaRetorno = (req, res, next) => {
 }
 
 const calculaRenda = (income, dependents) => {
-    return (income / dependents).toFixed(2);
+    dependents++;
+    return (income / (dependents)).toFixed(2);
 }
 
 module.exports = {trataDados, buscaCep, montaRetorno};
