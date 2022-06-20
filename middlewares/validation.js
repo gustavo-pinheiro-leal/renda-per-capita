@@ -39,8 +39,8 @@ const montaRetorno = (req, res, next) => {
 }
 
 const calculaRenda = (income, dependents) => {
-    dependents++;
-    return (income / (dependents)).toFixed(2);
+    const pessoasDaCasa = parseInt(dependents) + 1;
+    return (income / pessoasDaCasa).toFixed(2);
 }
 
 module.exports = {trataDados, buscaCep, montaRetorno};
